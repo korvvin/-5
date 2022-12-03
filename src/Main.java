@@ -10,8 +10,13 @@ public class Main {
         } else if (clientOS == false && age >= 2015) {
             System.out.println("Установите версию приложения для Android по ссылке");
         } else if (clientOS == false && age < 2015) {
-            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");  
         }
+        
+        
+        //задание 3
+        
+        
         System.out.println("задание 3");
         int year = 200;
         if(year%4==0&&year%100!=0||year%400==0) {
@@ -20,6 +25,11 @@ public class Main {
         else {
             System.out.println("год не высокосный");
         }
+        
+        
+        //задание 4
+        
+        
         System.out.println("задание 4");
         int deliveryDistance = 95;
         int time = 1;
@@ -34,6 +44,11 @@ public class Main {
             time+=2;
             System.out.println("потребуется дней: "+time);
         }
+        
+        
+        //задание 5
+        
+        
         System.out.println("задание 5");
         int monthOfYearNumber = 5;
 
